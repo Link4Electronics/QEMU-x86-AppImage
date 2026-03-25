@@ -10,6 +10,7 @@ pacman -Syu --noconfirm      \
     edk2-ovmf                \
     gtk3                     \
     libdecor                 \
+    qemu-audio-pa            \
     qemu-system-x86          \
     qemu-system-x86-firmware \
     qemu-ui-gtk              \
