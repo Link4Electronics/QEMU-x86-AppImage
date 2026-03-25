@@ -18,7 +18,7 @@ export DEPLOY_OPENGL=1
 export DEPLOY_VULKAN=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/qemu-* /usr/lib/qemu/*
+quick-sharun /usr/bin/qemu-* /usr/lib/qemu/*.so
 #quick-sharun /usr/bin/qemu-system-x86_64 /usr/bin/qemu-system-i386 /usr/lib/qemu/ui-gtk.so /usr/lib/qemu/audio-pa.so
 
 # Additional changes can be done in between here
