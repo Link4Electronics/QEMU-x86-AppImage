@@ -7,11 +7,13 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm      \
+    edk2-ovmf                \
     gtk3                     \
     libdecor                 \
     qemu-system-x86          \
     qemu-system-x86-firmware \
-    sdl2
+    sdl2                     \
+    seabios
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
