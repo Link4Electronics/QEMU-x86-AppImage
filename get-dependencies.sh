@@ -12,7 +12,8 @@ if [ "$ARCH" = "aarch64" ]; then
     pacman -U seabios-*.pkg.tar.zst edk2-ovmf-*.pkg.tar.zst --noconfirm
 fi
 pacman -Syu --noconfirm --overwrite '/usr/share/qemu/*' \
-    edk2             \
+    edk2-aarch64     \
+    edk2-arm         \
     gtk3             \
     libdecor         \
     pipewire-audio   \
