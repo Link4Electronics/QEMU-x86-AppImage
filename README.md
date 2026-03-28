@@ -42,9 +42,9 @@
 ./QEMU*.AppImage qemu-block-*
 ```
 
-**Or simply run `./QEMU*.AppImage --make-symlinks`** which will expose each bundled binary in `~/.local/bin` as symlinks to be AppImage. (Similar to how busybox works).
+**Or simply run `./QEMU*.AppImage --make-symlinks`** which will expose each bundled binary in `~/.local/bin` as symlinks the AppImage (similar to how busybox works).
 
-* Supports -enable-kvm, TPM, UEFI, virtiofsd and audio.
+* Supports -enable-kvm, TPM, UEFI (GPU passthrough), virtiofsd and audio.
 
 ---
 
