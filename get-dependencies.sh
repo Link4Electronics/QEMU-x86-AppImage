@@ -19,6 +19,8 @@ pacman -Syu --noconfirm --overwrite '/usr/share/qemu/*' \
     qemu-system-x86          \
     qemu-system-x86-firmware \
     qemu-ui-gtk              \
+    qemu-user                \
+    qemu-user-binfmt         \
     sdl2
 
 echo "Installing debloated packages..."
