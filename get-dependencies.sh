@@ -17,6 +17,7 @@ pacman -Syu --noconfirm --overwrite '/usr/share/qemu/*' \
     pipewire-audio           \
     pipewire-jack            \
     qemu-audio-pa            \
+    qemu-audio-pipewire      \
     qemu-block-curl          \
     qemu-block-dmg           \
     qemu-block-gluster       \
