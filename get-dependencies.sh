@@ -14,6 +14,8 @@ fi
 pacman -Syu --noconfirm --overwrite '/usr/share/qemu/*' \
     gtk3                     \
     libdecor                 \
+    pipewire-audio           \
+    pipewire-jack            \
     qemu-audio-pa            \
     qemu-block-curl          \
     qemu-block-dmg           \
