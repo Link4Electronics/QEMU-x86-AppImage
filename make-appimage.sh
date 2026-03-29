@@ -14,6 +14,7 @@ export GTK_DIR=gtk-3.0
 export DEPLOY_OPENGL=1
 export DEPLOY_VULKAN=1
 export DEPLOY_PIPEWIRE=1
+export OPTIMIZE_LAUNCH=1
 
 # Deploy dependencies
 quick-sharun \
@@ -25,7 +26,7 @@ quick-sharun \
 	/usr/bin/quickemu    \
 	/usr/bin/quickget    \
 	/usr/bin/quickreport \
-	/usr/share/edk2		 \
+	/usr/share/edk2      \
 	/usr/lib/libcapstone.so.5
 
 # Additional changes can be done in between here
