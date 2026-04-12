@@ -17,7 +17,7 @@
 
 </div>
 
-### ⚠️ Need to have libcapstone installed to be able to use qemu-userspace ⚠️
+* Supports -enable-kvm, TPM, UEFI (GPU passthrough), virtiofsd and audio.
 
 * By default it runs `qemu-system-x86_64` but if needed to emulate other platforms (contains all platforms like arm hppa m68k ppc sh4 etc) or run other tools like `qemu-img` or `qemu-user`, e.g. you can do the following: 
 
@@ -45,8 +45,6 @@
 ```
 
 **Or simply run `./QEMU*.AppImage --make-symlinks`** which will expose each bundled binary in `~/.local/bin` as symlinks the AppImage (similar to how busybox works).
-
-* Supports -enable-kvm, TPM, UEFI (GPU passthrough), virtiofsd and audio.
 
 ---
 
