@@ -6,7 +6,7 @@ _make_symlinks_in_path() {
 	mkdir -p "$BINDIR"
 	cd "$APPDIR"/bin
 	set +e
-	set -- ./qemu* ./quick*
+	set -- ./qemu*
 	for b do
 		ln -sv "$APPIMAGE" "$BINDIR"/"${b##*/}" 2>/dev/null
 	done
