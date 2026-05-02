@@ -18,12 +18,6 @@ export OPTIMIZE_LAUNCH=1
 # qemu-usermode is hardcoded to look in /usr/lib/binfmt.d
 export PATH_MAPPING='/usr/lib/binfmt.d:${SHARUN_DIR}/shared/lib/binfmt.d'
 
-# vkmark is hardcoded to look in /usr/share/vkmark and /usr/lib/vkmark
-export PATH_MAPPING='
-	/usr/share/vkmark:${SHARUN_DIR}/share/vkmark
-	/usr/lib/vkmark:${SHARUN_DIR}/lib/vkmark
-'
-
 # Deploy dependencies
 quick-sharun \
 	/usr/bin/qemu-*      \
