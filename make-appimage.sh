@@ -15,17 +15,13 @@ export DEPLOY_OPENGL=1
 export DEPLOY_VULKAN=1
 export DEPLOY_PIPEWIRE=1
 export OPTIMIZE_LAUNCH=1
+# qemu-usermode is hardcoded to look in /usr/lib/binfmt.d
+export PATH_MAPPING='/usr/lib/binfmt.d:${SHARUN_DIR}/shared/lib/binfmt.d'
 
 # Deploy dependencies
 quick-sharun \
 	/usr/bin/qemu-*      \
 	/usr/lib/qemu/*.so   \
-	/usr/bin/bash        \
-	/usr/bin/zenity      \
-	/usr/bin/spicy       \
-	/usr/bin/quickemu    \
-	/usr/bin/quickget    \
-	/usr/bin/quickreport \
 	/usr/share/edk2      \
 	/usr/share/qemu		 \
 	/usr/lib/binfmt.d	 \
